@@ -60,6 +60,16 @@ display: flex;
    opacity:0.95;
 }
 
+.play-button {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: center; 
+}
+.play-button img{
+   border-width: 0;
+  width: 30%;
+  height: auto;
+}
 /* audio{
   display:none;
 } */
