@@ -77,3 +77,7 @@ opacity: 0.7
 .clickable-container:hover .caption {
   display:none;
 }
+
+.contact 
+{text-decoration:none;
+color: #c100f6}
