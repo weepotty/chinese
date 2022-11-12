@@ -16,9 +16,9 @@ h1, h4, footer {
 }
 
   img {
-    width: 20vw;
+    width: 30vw;
     object-fit: cover;
-    height: 20vw;
+    height: 30vw;
     border-color: black;
     border-width: 5px;
     border-style: solid;
@@ -66,9 +66,11 @@ footer {
   text-align: center;
   background-color: white;
   color: black;
-  left: 10%;
-  top: 88%;
-  width: 80%;
+  left: 5%;
+  bottom: 10%;
+  width: 90%;
+opacity: 0.7
+  
 
 }
 
