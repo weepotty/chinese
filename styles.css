@@ -13,6 +13,8 @@ h1, h4, footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  
+  
 }
 
   img {
@@ -59,6 +61,7 @@ h1, h4, footer {
 footer {
   margin-top: 1rem;
   font-weight: 700;
+  margin-bottom: 3rem;
 }
 
 .caption {
@@ -80,4 +83,5 @@ opacity: 0.7
 
 .contact 
 {text-decoration:none;
-color: #c100f6}
+color: #c100f6;
+}
