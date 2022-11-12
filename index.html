@@ -9,6 +9,7 @@
   </head>
   <body>
     <h1>Ch-eye-nese</h1>
+    <h4>[double-click on mobile for audio]</h4>
     <div class="images">
       <a class="clickable-container" href="#">
         <img class=image src="images/open-eye.png" alt="open-eye" />
@@ -17,7 +18,7 @@
             
             </div>
             
-            <!-- <div class="play-button"><img src="images/playbutton.png"></div> -->
+            
             <audio id="audioOpen">
               <source src="audio/1.mp3" type="audio/mpeg">
             </audio>
@@ -107,7 +108,8 @@
       </a>
 
       <a class="clickable-container" href="#">
-        <img src="images/light.png" alt="light" />
+        <img src="https://media.giphy.com/media/26uf4JMeuLpt0gpwY/giphy.gif" alt="light" />
+        <div class="caption">look at the light</div>
         <div class="overlay" onclick="playLight()">
           <div class="overlay-content">看灯<br />kàn dēng</div>
         </div>
@@ -118,10 +120,12 @@
       </a>
 
       <a class="clickable-container" href="#">
-        <img src="images/straight.png" alt="straight" />
+        <img src="https://media.giphy.com/media/5wFS5nyTmkX3QYiXrq/giphy.gif" alt="straight" />
+        <div class="caption">look straight ahead</div>
         <div class="overlay" onclick="playStraight()">
           <div class="overlay-content">看前面<br />kàn qián miàn</div>
         </div>
+        
         <div><audio id="audioStraight">
           <source src="audio/10.mp3" type="audio/mpeg">
         </audio>
@@ -133,6 +137,7 @@
           src="https://media.giphy.com/media/Yavo0SXhZYhSo/giphy.gif"
           alt="squeeze"
         />
+        <div class="caption">don't squeeze your eye</div>
         <div class="overlay" onclick="playSqueeze()">
           <div class="overlay-content">不要挤眼睛<br />bù yào jǐ yǎn jīng</div>
         </div>
@@ -143,7 +148,8 @@
       </a>
 
       <a class="clickable-container" href="#">
-        <img src="images/eyedrop.png" alt="eye-drop" />
+        <img src="https://media.giphy.com/media/LPRxnliEiUz4s/giphy.gif" alt="eye-drop" />
+        <div class="caption">i'm going to apply eye-drops</div>
         <div class="overlay" onclick="playDrop()">
           <div class="overlay-content">
             我会点药水<br />wǒ huì diǎn yào shuǐ
@@ -159,7 +165,7 @@
         <img
           src="https://media.giphy.com/media/SWtiAKAIi9dcqoLQOd/giphy.gif"
           alt="chin-rest"
-        />
+        /><div class="caption">rest your chin here</div>
         <div class="overlay" onclick="playChin()">
           <div class="overlay-content">
             下巴放在这里<br />xià bā fàng zài zhè lǐ
@@ -174,7 +180,7 @@
       </a>
       <a class="clickable-container" href="#">
         <img
-          src="https://media.giphy.com/media/3ohhwznAY9PN08m0H6/giphy.gif"
+          src="https://media.giphy.com/media/zt9dS1aulhwTC/giphy.gif"
           alt="sit-down"
         />
         <div class="overlay" onclick="playSit()">
@@ -186,6 +192,9 @@
     </div>
       </a>
     </div>
+    
+
+    <footer>Copyright	&#169; S Chan</footer>
     <script src="app.js"></script>
 
 </body>
