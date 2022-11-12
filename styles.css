@@ -38,7 +38,7 @@ img {
 .clickable-container:hover {
   cursor:pointer;
   color:#90ffa3;
-  font-size: 1.5em;
+  font-size: 3vw;
 }
 
 .overlay{
