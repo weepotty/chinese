@@ -1,6 +1,5 @@
 <h1 align="center">Ch-Eye-Nese 👁️ </h1>
-<p>
-</p>
+
 
 A little project to help eye doctors communicate with their Chinese patients.
 
