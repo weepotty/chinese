@@ -2,7 +2,7 @@
 <p>
 </p>
 
-> A little project to help eye doctors communicate with their Chinese patients.
+A little project to help eye doctors communicate with their Chinese patients.
 
 ### ✨ [Demo](https://weepotty.github.io/chinese/)
 
