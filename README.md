@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Ch-Eye-Nese 👋</h1>
+<h1 align="center">Ch-Eye-Nese 👁️ </h1>
 <p>
 </p>
 
