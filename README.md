@@ -6,15 +6,10 @@
 
 ### ✨ [Demo](https://weepotty.github.io/chinese/)
 
-## Author
+## Learning
 
-👤 **shona**
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
 
-* Github: [@weepotty](https://github.com/weepotty)
+JS to play audio media.
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+---
