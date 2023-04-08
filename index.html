@@ -8,198 +8,204 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>&#128065; ch-eye-nese &#128065;</h1>
-    <h4>[double-click on mobile for audio]</h4>
-    <div class="images">
-      <a class="clickable-container" href="#/">
-        <img class=image src="images/open-eye.png" alt="open-eye" />
-        <div class="overlay" onclick="playOpen()" >
-          <div class="overlay-content">开眼睛<br />kāī yǎn jīng
-            
-            </div>
-            
-            
+    <div class="container">
+      <h1>&#128065; ch-eye-nese &#128065;</h1>
+      <h4>[double-click on mobile for audio]</h4>
+      <div class="images">
+        <a class="clickable-container" href="#/">
+          <img class="image" src="images/open-eye.png" alt="open-eye" />
+          <div class="overlay" onclick="playOpen()">
+            <div class="overlay-content">开眼睛<br />kāī yǎn jīng</div>
+
             <audio id="audioOpen">
-              <source src="audio/1.mp3" type="audio/mpeg">
+              <source src="audio/1.mp3" type="audio/mpeg" />
             </audio>
-        </div>
-      </a>
-
-     
-
-      <a class="clickable-container" href="#/">
-        <img src="images/close-eye.png" alt="close-eye" />
-        <div class="overlay" onclick="playClose()">
-          <div class="overlay-content">闭眼睛<br />bì yǎn jīng</div>
-        </div>
-        <div><audio id="audioClose">
-          <source src="audio/2.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img
-          src="https://media.giphy.com/media/l41YdAa3Yll5NHfwI/giphy.gif"
-          alt="blink"
-        />
-        <div class="overlay" onclick="playBlink()">
-          <div class="overlay-content">眨眼睛<br />zhǎ yǎn jīng</div>
-        </div>
-        <div><audio id="audioBlink">
-          <source src="audio/3.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="images/look-up.png" alt="look-up" />
-        <div class="overlay" onclick="playUp()">
-          <div class="overlay-content">看上<br />kàn shàng</div>
-        </div>
-        <div><audio id="audioUp">
-          <source src="audio/4.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="images/look-down.png" alt="look-down" />
-        <div class="overlay" onclick="playDown()">
-          <div class="overlay-content">看下<br />kàn xià</div>
-        </div>
-        <div><audio id="audioDown">
-          <source src="audio/5.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="images/look-left.png" alt="look-left" />
-        <div class="overlay" onclick="playLeft()">
-          <div class="overlay-content">看左<br />kàn zuǒ</div>
-        </div>
-        <div><audio id="audioLeft">
-          <source src="audio/6.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="images/look-right.png" alt="look-right" />
-        <div class="overlay" onclick="playRight()">
-          <div class="overlay-content">看右<br />kàn yòu</div>
-        </div>
-        <div><audio id="audioRight">
-          <source src="audio/7.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="images/ear.png" alt="ear" />
-        <div class="overlay" onclick="playEar()">
-          <div class="overlay-content">看耳朵<br />kàn Ěr duō</div>
-        </div>
-        <div><audio id="audioEar">
-          <source src="audio/8.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="https://media.giphy.com/media/26uf4JMeuLpt0gpwY/giphy.gif" alt="light" />
-        <div class="caption">look at the light</div>
-        <div class="overlay" onclick="playLight()">
-          <div class="overlay-content">看灯<br />kàn dēng</div>
-        </div>
-        <div><audio id="audioLight">
-          <source src="audio/9.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="https://media.giphy.com/media/5wFS5nyTmkX3QYiXrq/giphy.gif" alt="straight" />
-        <div class="caption">look straight ahead</div>
-        <div class="overlay" onclick="playStraight()">
-          <div class="overlay-content">看前面<br />kàn qián miàn</div>
-        </div>
-        
-        <div><audio id="audioStraight">
-          <source src="audio/10.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img
-          src="https://media.giphy.com/media/Yavo0SXhZYhSo/giphy.gif"
-          alt="squeeze"
-        />
-        <div class="caption">don't squeeze your eye</div>
-        <div class="overlay" onclick="playSqueeze()">
-          <div class="overlay-content">不要挤眼睛<br />bù yào jǐ yǎn jīng</div>
-        </div>
-        <div><audio id="audioSqueeze">
-          <source src="audio/11.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-
-      <a class="clickable-container" href="#/">
-        <img src="https://media.giphy.com/media/LPRxnliEiUz4s/giphy.gif" alt="eye-drop" />
-        <div class="caption">i'm going to apply eye-drops</div>
-        <div class="overlay" onclick="playDrop()">
-          <div class="overlay-content">
-            我会点药水<br />wǒ huì diǎn yào shuǐ
           </div>
-        </div>
-        <div><audio id="audioDrop">
-          <source src="audio/12.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
+        </a>
 
-      <a class="clickable-container" href="#/">
-        <img
-          src="https://media.giphy.com/media/SWtiAKAIi9dcqoLQOd/giphy.gif"
-          alt="chin-rest"
-        /><div class="caption">rest your chin here</div>
-        <div class="overlay" onclick="playChin()">
-          <div class="overlay-content">
-            下巴放在这里<br />xià bā fàng zài zhè lǐ
+        <a class="clickable-container" href="#/">
+          <img src="images/close-eye.png" alt="close-eye" />
+          <div class="overlay" onclick="playClose()">
+            <div class="overlay-content">闭眼睛<br />bì yǎn jīng</div>
           </div>
-        </div>
+          <div>
+            <audio id="audioClose">
+              <source src="audio/2.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/l41YdAa3Yll5NHfwI/giphy.gif"
+            alt="blink"
+          />
+          <div class="overlay" onclick="playBlink()">
+            <div class="overlay-content">眨眼睛<br />zhǎ yǎn jīng</div>
+          </div>
+          <div>
+            <audio id="audioBlink">
+              <source src="audio/3.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img src="images/look-up.png" alt="look-up" />
+          <div class="overlay" onclick="playUp()">
+            <div class="overlay-content">看上<br />kàn shàng</div>
+          </div>
+          <div>
+            <audio id="audioUp">
+              <source src="audio/4.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img src="images/look-down.png" alt="look-down" />
+          <div class="overlay" onclick="playDown()">
+            <div class="overlay-content">看下<br />kàn xià</div>
+          </div>
+          <div>
+            <audio id="audioDown">
+              <source src="audio/5.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img src="images/look-left.png" alt="look-left" />
+          <div class="overlay" onclick="playLeft()">
+            <div class="overlay-content">看左<br />kàn zuǒ</div>
+          </div>
+          <div>
+            <audio id="audioLeft">
+              <source src="audio/6.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img src="images/look-right.png" alt="look-right" />
+          <div class="overlay" onclick="playRight()">
+            <div class="overlay-content">看右<br />kàn yòu</div>
+          </div>
+          <div>
+            <audio id="audioRight">
+              <source src="audio/7.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img src="images/ear.png" alt="ear" />
+          <div class="overlay" onclick="playEar()">
+            <div class="overlay-content">看耳朵<br />kàn Ěr duō</div>
+          </div>
+          <div>
+            <audio id="audioEar">
+              <source src="audio/8.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/26uf4JMeuLpt0gpwY/giphy.gif"
+            alt="light"
+          />
+          <div class="caption">look at the light</div>
+          <div class="overlay" onclick="playLight()">
+            <div class="overlay-content">看灯<br />kàn dēng</div>
+          </div>
+          <div>
+            <audio id="audioLight">
+              <source src="audio/9.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/5wFS5nyTmkX3QYiXrq/giphy.gif"
+            alt="straight"
+          />
+          <div class="caption">look straight ahead</div>
+          <div class="overlay" onclick="playStraight()">
+            <div class="overlay-content">看前面<br />kàn qián miàn</div>
+          </div>
 
-        <div><audio id="audioChin">
-          <source src="audio/13.mp3" type="audio/mpeg">
-        </audio>
+          <div>
+            <audio id="audioStraight">
+              <source src="audio/10.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/Yavo0SXhZYhSo/giphy.gif"
+            alt="squeeze"
+          />
+          <div class="caption">don't squeeze your eye</div>
+          <div class="overlay" onclick="playSqueeze()">
+            <div class="overlay-content">
+              不要挤眼睛<br />bù yào jǐ yǎn jīng
+            </div>
+          </div>
+          <div>
+            <audio id="audioSqueeze">
+              <source src="audio/11.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/LPRxnliEiUz4s/giphy.gif"
+            alt="eye-drop"
+          />
+          <div class="caption">i'm going to apply eye-drops</div>
+          <div class="overlay" onclick="playDrop()">
+            <div class="overlay-content">
+              我会点药水<br />wǒ huì diǎn yào shuǐ
+            </div>
+          </div>
+          <div>
+            <audio id="audioDrop">
+              <source src="audio/12.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/SWtiAKAIi9dcqoLQOd/giphy.gif"
+            alt="chin-rest"
+          />
+          <div class="caption">rest your chin here</div>
+          <div class="overlay" onclick="playChin()">
+            <div class="overlay-content">
+              下巴放在这里<br />xià bā fàng zài zhè lǐ
+            </div>
+          </div>
+          <div>
+            <audio id="audioChin">
+              <source src="audio/13.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+        <a class="clickable-container" href="#/">
+          <img
+            src="https://media.giphy.com/media/zt9dS1aulhwTC/giphy.gif"
+            alt="sit-down"
+          />
+          <div class="overlay" onclick="playSit()">
+            <div class="overlay-content">请坐<br />qǐng zuò</div>
+          </div>
+          <div>
+            <audio id="audioSit">
+              <source src="audio/14.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </a>
+      </div>
     </div>
 
-      </a>
-      <a class="clickable-container" href="#/">
-        <img
-          src="https://media.giphy.com/media/zt9dS1aulhwTC/giphy.gif"
-          alt="sit-down"
-        />
-        <div class="overlay" onclick="playSit()">
-          <div class="overlay-content">请坐<br />qǐng zuò</div>
-        </div>
-        <div><audio id="audioSit">
-          <source src="audio/14.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-      </a>
-    </div>
-    
-
-    <footer><p>copyright	&#169; s chan</p>
+    <footer>
+      <p>copyright &#169; s chan</p>
       <a href="mailto:lire.ahead_0h@icloud.com" class="contact">contact me</a>
     </footer>
     <script src="app.js"></script>
-
-</body>
+  </body>
 </html>
-
-
